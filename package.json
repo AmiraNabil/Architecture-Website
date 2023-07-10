@@ -1,0 +1,28 @@
+{
+  "name": "arc-app",
+  "version": "1.0.0",
+  "description": "Architecture Project for Amira Nabil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss:css",
+    "watch": "sass --watch scss:css & live-server"
+  },
+  "keywords": [
+    "architecture",
+    "interior",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Amira Nabil",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "jquery.counterup": "^2.1.0"
+  }
+}
